@@ -20,7 +20,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
 
   const userNavigation = [
-    { name: "Dashboard", href: "/", icon: LayoutDashboard },
+    { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
     { name: "Add Product", href: "/add-product", icon: Plus },
     { name: "Products", href: "/products", icon: Package },
     { name: "Platforms", href: "/platforms", icon: ShoppingCart },
